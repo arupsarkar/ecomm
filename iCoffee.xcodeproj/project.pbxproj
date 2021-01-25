@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2F068DCD1835490D58AFAFF7 /* Pods_iCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F09D721CB463D5F8A55E2D /* Pods_iCoffee.framework */; };
+		E204796725BCCC7900945182 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E204796625BCCC7900945182 /* FUser.swift */; };
+		E22F3E5725B63455004CA1B5 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F3E5625B63455004CA1B5 /* DrinkDetail.swift */; };
+		E22F3E5A25B68E69004CA1B5 /* OrderBasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F3E5925B68E69004CA1B5 /* OrderBasket.swift */; };
+		E22F3E5D25B78954004CA1B5 /* BasketListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F3E5C25B78954004CA1B5 /* BasketListener.swift */; };
+		E22F3E6025B7A7EC004CA1B5 /* OrderBasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F3E5F25B7A7EC004CA1B5 /* OrderBasketView.swift */; };
+		E22F3E6325B7AC93004CA1B5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F3E6225B7AC93004CA1B5 /* Extensions.swift */; };
+		E22F3E6625B7BEE7004CA1B5 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F3E6525B7BEE7004CA1B5 /* CheckoutView.swift */; };
+		E22F3E6925B7CB95004CA1B5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F3E6825B7CB95004CA1B5 /* Order.swift */; };
+		E22F3E6C25B7D957004CA1B5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F3E6B25B7D957004CA1B5 /* LoginView.swift */; };
+		E22F3E6F25B7E67B004CA1B5 /* FinishRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22F3E6E25B7E67B004CA1B5 /* FinishRegistrationView.swift */; };
 		E612CB6225968D2B000EDE69 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB6125968D2B000EDE69 /* Drink.swift */; };
 		E612CB652596F790000EDE69 /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB642596F790000EDE69 /* FirebaseReference.swift */; };
 		E612CB682596FAE0000EDE69 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB672596FAE0000EDE69 /* Constants.swift */; };
@@ -24,6 +34,16 @@
 /* Begin PBXFileReference section */
 		165F3641BA1AC78BD5F20843 /* Pods-iCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffee.debug.xcconfig"; path = "Target Support Files/Pods-iCoffee/Pods-iCoffee.debug.xcconfig"; sourceTree = "<group>"; };
 		97F09D721CB463D5F8A55E2D /* Pods_iCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E204796625BCCC7900945182 /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		E22F3E5625B63455004CA1B5 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
+		E22F3E5925B68E69004CA1B5 /* OrderBasket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBasket.swift; sourceTree = "<group>"; };
+		E22F3E5C25B78954004CA1B5 /* BasketListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketListener.swift; sourceTree = "<group>"; };
+		E22F3E5F25B7A7EC004CA1B5 /* OrderBasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBasketView.swift; sourceTree = "<group>"; };
+		E22F3E6225B7AC93004CA1B5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E22F3E6525B7BEE7004CA1B5 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		E22F3E6825B7CB95004CA1B5 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E22F3E6B25B7D957004CA1B5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E22F3E6E25B7E67B004CA1B5 /* FinishRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationView.swift; sourceTree = "<group>"; };
 		E612CB6125968D2B000EDE69 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		E612CB642596F790000EDE69 /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
 		E612CB672596FAE0000EDE69 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -66,6 +86,7 @@
 			children = (
 				E612CB642596F790000EDE69 /* FirebaseReference.swift */,
 				E612CB672596FAE0000EDE69 /* Constants.swift */,
+				E22F3E6225B7AC93004CA1B5 /* Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -74,6 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				E612CB6125968D2B000EDE69 /* Drink.swift */,
+				E204796625BCCC7900945182 /* FUser.swift */,
+				E22F3E5925B68E69004CA1B5 /* OrderBasket.swift */,
+				E22F3E6825B7CB95004CA1B5 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				E612CB7525A2D31D000EDE69 /* DrinkListener.swift */,
+				E22F3E5C25B78954004CA1B5 /* BasketListener.swift */,
 			);
 			path = "Firebase Listeners";
 			sourceTree = "<group>";
@@ -116,9 +141,14 @@
 			isa = PBXGroup;
 			children = (
 				E6EDB83425958BDA00DD6E7A /* iCoffeeApp.swift */,
+				E22F3E6B25B7D957004CA1B5 /* LoginView.swift */,
+				E22F3E6525B7BEE7004CA1B5 /* CheckoutView.swift */,
+				E22F3E5F25B7A7EC004CA1B5 /* OrderBasketView.swift */,
 				E6EDB83625958BDA00DD6E7A /* HomeView.swift */,
 				E612CB6F25970BD4000EDE69 /* DrinkRow.swift */,
 				E612CB7225970F0B000EDE69 /* DrinkItem.swift */,
+				E22F3E5625B63455004CA1B5 /* DrinkDetail.swift */,
+				E22F3E6E25B7E67B004CA1B5 /* FinishRegistrationView.swift */,
 				E612CB6B259706E4000EDE69 /* Model */,
 				E612CB6A259706C3000EDE69 /* Helpers */,
 				E6EDB83825958BDA00DD6E7A /* Assets.xcassets */,
@@ -252,13 +282,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22F3E6F25B7E67B004CA1B5 /* FinishRegistrationView.swift in Sources */,
 				E612CB682596FAE0000EDE69 /* Constants.swift in Sources */,
+				E22F3E6025B7A7EC004CA1B5 /* OrderBasketView.swift in Sources */,
 				E612CB7025970BD4000EDE69 /* DrinkRow.swift in Sources */,
+				E22F3E5D25B78954004CA1B5 /* BasketListener.swift in Sources */,
 				E6EDB83725958BDA00DD6E7A /* HomeView.swift in Sources */,
 				E612CB7325970F0B000EDE69 /* DrinkItem.swift in Sources */,
 				E612CB7625A2D31D000EDE69 /* DrinkListener.swift in Sources */,
+				E22F3E5725B63455004CA1B5 /* DrinkDetail.swift in Sources */,
+				E22F3E6325B7AC93004CA1B5 /* Extensions.swift in Sources */,
+				E22F3E5A25B68E69004CA1B5 /* OrderBasket.swift in Sources */,
+				E22F3E6625B7BEE7004CA1B5 /* CheckoutView.swift in Sources */,
 				E612CB6225968D2B000EDE69 /* Drink.swift in Sources */,
+				E22F3E6925B7CB95004CA1B5 /* Order.swift in Sources */,
 				E612CB652596F790000EDE69 /* FirebaseReference.swift in Sources */,
+				E204796725BCCC7900945182 /* FUser.swift in Sources */,
+				E22F3E6C25B7D957004CA1B5 /* LoginView.swift in Sources */,
 				E6EDB83525958BDA00DD6E7A /* iCoffeeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

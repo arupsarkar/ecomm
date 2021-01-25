@@ -21,6 +21,8 @@ public let kDRINKIDS = "drinkIds"
 public let kOWNERID = "ownerId"
 public let kCUSTOMERID = "customerId"
 public let kAMOUNT = "amount"
+public let kCUSTOMERNAME = "customerName"
+public let kISCOMPLETED = "isCompleted"
 // FUser
 public let kEMAIL = "email"
 public let kFIRSTNAME = "firstname"

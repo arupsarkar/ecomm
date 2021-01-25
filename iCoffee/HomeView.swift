@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     @ObservedObject var drinkListener = DrinkListener()
-    
+    @State private var showingBasket = false
     var categories: [ String : [Drink]] {
         .init(
             grouping: drinkListener.drinks,
@@ -36,16 +36,31 @@ struct HomeView: View {
                 .navigationBarItems(leading:
                     Button(action: {
                         print("log out")
-
+                        FUser.logOutCurrentUser { (error) in
+                            print("Error logging out user.", error?.localizedDescription)
+                        }
                     }, label: {
                         Text("Log Out")
                     })
                 ,trailing:
                     Button(action: {
                         print("basket")
+                        self.showingBasket.toggle()
                     }, label: {
                         Image("basket")
                     })
+                    .sheet(isPresented: $showingBasket) {
+                        //check if user logged in
+                        if FUser.currentUser() != nil &&
+                            FUser.currentUser()!.onBoarding {
+                            OrderBasketView()
+                        }else if FUser.currentUser() != nil {
+                            FinishRegistrationView()
+                        }else {
+                            LoginView()
+                        }
+                        
+                    }
                 )
         }
 
@@ -54,6 +69,9 @@ struct HomeView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        Group {
+            HomeView()
+            HomeView()
+        }
     }
 }
